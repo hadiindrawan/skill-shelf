@@ -1,0 +1,62 @@
+{
+  "profile": {
+    "name": "Hadi Indrawan",
+    "role": "AI builder dan kreator konten",
+    "blurb": "Bikin konten soal AI dan workflow kreatif. Mau ngobrol atau kolaborasi, hubungi gw.",
+    "links": [
+      {
+        "label": "Ngobrol di Instagram",
+        "url": "https://www.instagram.com/hadiindrawann/",
+        "primary": true
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/hadiindrawan"
+      }
+    ]
+  },
+  "categories": ["Core AI","Content & Automation","Motion Graphics","2D / 3D","Dev / Engineering","Docs / Office"],
+  "skills": [
+    {"name":"prompt-enhancer","category":"Core AI","tag":"Skill gw","desc":"Ubah ide prompt kasar jadi prompt lengkap lewat pertanyaan lanjutan yang terarah.","url":""},
+    {"name":"deep-research","category":"Core AI","tag":"Skill gw","desc":"Riset multi-sumber yang disintesis jadi laporan naratif.","url":""},
+    {"name":"import-memory","category":"Core AI","tag":"Skill gw","desc":"Impor memori dari asisten AI lain ke memori Claude.","url":""},
+    {"name":"skill-creator","category":"Core AI","tag":"Resmi","desc":"Buat, ubah, dan ukur performa skill baru.","url":"https://github.com/anthropics/skills/tree/main/skills/skill-creator"},
+    {"name":"anthropics/skills","category":"Core AI","tag":"Resmi","desc":"Repo contoh skill resmi dari Anthropic, bisa dipasang sebagai plugin marketplace.","url":"https://github.com/anthropics/skills"},
+    {"name":"travisvn/awesome-claude-skills","category":"Core AI","tag":"Komunitas","desc":"Daftar kurasi skill, resource, dan tools untuk workflow Claude.","url":"https://github.com/travisvn/awesome-claude-skills"},
+    {"name":"hesreallyhim/awesome-claude-code","category":"Core AI","tag":"Komunitas","desc":"Daftar kurasi skill, agent, dan tools untuk Claude Code.","url":"https://github.com/hesreallyhim/awesome-claude-code"},
+    {"name":"ComposioHQ/awesome-claude-skills","category":"Core AI","tag":"Komunitas","desc":"Kumpulan skill Claude yang bisa dipakai ulang untuk berbagai tugas.","url":"https://github.com/ComposioHQ/awesome-claude-skills"},
+    {"name":"kkoppenhaver/cc-skills","category":"Content & Automation","tag":"Komunitas","desc":"Skill untuk konten, marketing, social media, video, gambar, dan desain.","url":"https://github.com/kkoppenhaver/cc-skills"},
+    {"name":"dragosroua/claude-content-skills","category":"Content & Automation","tag":"Komunitas","desc":"Skill manajemen konten, optimasi SEO berbantuan AI, dan pengelolaan link.","url":"https://github.com/dragosroua/claude-content-skills"},
+    {"name":"agricidaniel/claude-blog","category":"Content & Automation","tag":"Komunitas","desc":"Rangkaian skill penulisan blog ber-SEO dengan slash command.","url":"https://github.com/agricidaniel/claude-blog"},
+    {"name":"arturseo-geo/claude-code-skills","category":"Content & Automation","tag":"Komunitas","desc":"18 skill: SEO, konten, marketing, publishing, dan agen AI.","url":"https://github.com/arturseo-geo/claude-code-skills"},
+    {"name":"aradotso/marketing-skills","category":"Content & Automation","tag":"Komunitas","desc":"Pipeline otomasi konten: riset, penulisan dengan AI, lalu render video lewat Remotion.","url":"https://github.com/aradotso/marketing-skills"},
+    {"name":"motion-graphics-by-nalarka","category":"Motion Graphics","tag":"Skill gw","desc":"Video explainer maks. 60 detik dengan voiceover, dari naskah sampai render MP4.","url":""},
+    {"name":"video-making","category":"Motion Graphics","tag":"Skill gw","desc":"Panduan sebelum membuat video baru.","url":""},
+    {"name":"iart-ai/motion-skills","category":"Motion Graphics","tag":"Komunitas","desc":"Puluhan skill motion graphics: kinetic typography, data-viz, explainer, TikTok dan Reels, WebGL, Manim.","url":"https://github.com/iart-ai/motion-skills"},
+    {"name":"remotion-dev/skills","category":"Motion Graphics","tag":"Resmi","desc":"Skill resmi Remotion untuk membuat video dengan React.","url":"https://github.com/remotion-dev/skills"},
+    {"name":"digitalsamba/claude-code-video-toolkit","category":"Motion Graphics","tag":"Komunitas","desc":"Template proyek video lengkap: skill, slash command, komponen, transisi, tema.","url":"https://github.com/digitalsamba/claude-code-video-toolkit"},
+    {"name":"wilwaldon/Claude-Code-Video-Toolkit","category":"Motion Graphics","tag":"Komunitas","desc":"Skill dan MCP untuk video: Remotion, Manim, screen recording, FFmpeg.","url":"https://github.com/wilwaldon/Claude-Code-Video-Toolkit"},
+    {"name":"Barty-Bart/motion-graphics","category":"Motion Graphics","tag":"Komunitas","desc":"Skill edit video untuk membuat dan mengubah motion graphics.","url":"https://github.com/Barty-Bart/motion-graphics"},
+    {"name":"AbubakrChan/product-launch-motion","category":"Motion Graphics","tag":"Komunitas","desc":"Skill video peluncuran produk dari landing page.","url":"https://github.com/AbubakrChan/product-launch-motion"},
+    {"name":"canvas-design","category":"2D / 3D","tag":"Resmi","desc":"Poster dan karya visual orisinal dalam format PNG dan PDF.","url":"https://github.com/anthropics/skills/tree/main/skills/canvas-design"},
+    {"name":"ui-redesign","category":"2D / 3D","tag":"Skill gw","desc":"Redesign UI/UX dari screenshot antarmuka.","url":""},
+    {"name":"cloudai-x/threejs-skills","category":"2D / 3D","tag":"Komunitas","desc":"Kumpulan skill Three.js: API, praktik terbaik, dan pola pengembangan 3D.","url":"https://github.com/cloudai-x/threejs-skills"},
+    {"name":"kevinbadi/blender-skills","category":"2D / 3D","tag":"Komunitas","desc":"Otomasi workflow produk 3D di Blender lewat MCP.","url":"https://github.com/kevinbadi/blender-skills"},
+    {"name":"freshtechbro/claudedesignskills","category":"2D / 3D","tag":"Komunitas","desc":"23 skill untuk grafis 3D, animasi, dan pengalaman web interaktif.","url":"https://github.com/freshtechbro/claudedesignskills"},
+    {"name":"dylantarre/animation-principles","category":"2D / 3D","tag":"Komunitas","desc":"144 skill yang mengajarkan 12 prinsip animasi Disney di berbagai konteks.","url":"https://github.com/dylantarre/animation-principles"},
+    {"name":"hadi-execute-plan","category":"Dev / Engineering","tag":"Skill gw","desc":"Eksekusi rencana dari PRD dan TDD dengan living doc dan changelog.","url":""},
+    {"name":"spike-feature","category":"Dev / Engineering","tag":"Skill gw","desc":"Riset kelayakan fitur dan bandingkan 2 sampai 4 pendekatan.","url":""},
+    {"name":"frontend-ui-creation","category":"Dev / Engineering","tag":"Skill gw","desc":"Bangun UI multi-halaman dari deskripsi dan aset desain.","url":""},
+    {"name":"engineering-tech-design-generator","category":"Dev / Engineering","tag":"Skill gw","desc":"Hasilkan Technical Design Document dalam Markdown.","url":""},
+    {"name":"product-prd-generator","category":"Dev / Engineering","tag":"Skill gw","desc":"Hasilkan Product Requirements Document terstruktur.","url":""},
+    {"name":"playwright-locator-finder","category":"Dev / Engineering","tag":"Skill gw","desc":"Buat locator Playwright (Python) dari potongan HTML.","url":""},
+    {"name":"maxtest-init-sprint","category":"Dev / Engineering","tag":"Skill gw","desc":"Siapkan suite sprint di Maxtest: SERVICE, PAGE, SPRINT.","url":""},
+    {"name":"maxtest-init-test-cases","category":"Dev / Engineering","tag":"Skill gw","desc":"Generate test case sprint dari user story untuk direview.","url":""},
+    {"name":"obra/superpowers-marketplace","category":"Dev / Engineering","tag":"Komunitas","desc":"Repo skill komunitas yang bisa diedit bersama, dipasang lewat plugin marketplace.","url":"https://github.com/obra/superpowers-marketplace"},
+    {"name":"pptx","category":"Docs / Office","tag":"Resmi","desc":"Buat dan edit file PowerPoint.","url":"https://github.com/anthropics/skills/tree/main/skills/pptx"},
+    {"name":"docx","category":"Docs / Office","tag":"Resmi","desc":"Buat dan edit dokumen Word.","url":"https://github.com/anthropics/skills/tree/main/skills/docx"},
+    {"name":"xlsx","category":"Docs / Office","tag":"Resmi","desc":"Buat dan edit spreadsheet Excel.","url":"https://github.com/anthropics/skills/tree/main/skills/xlsx"},
+    {"name":"pdf","category":"Docs / Office","tag":"Resmi","desc":"Baca, gabung, pecah, dan buat file PDF.","url":"https://github.com/anthropics/skills/tree/main/skills/pdf"},
+    {"name":"futuristic-ppt-research","category":"Docs / Office","tag":"Skill gw","desc":"Deck riset bergaya dark-neon futuristik, maks. 10 slide.","url":""}
+  ]
+}
