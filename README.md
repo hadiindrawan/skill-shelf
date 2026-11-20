@@ -15,7 +15,7 @@ Semua isi ada di [`skills.json`](skills.json). Tambah satu baris di `skills`:
 - `url` boleh kosong (`""`): kartunya tampil tanpa link, dengan tulisan "Skill pribadi".
 - Footer (nama, deskripsi, tombol kontak) ada di `profile` di file yang sama. Tambah LinkedIn: tambah `{"label":"LinkedIn","url":"..."}` ke `profile.links`.
 
-Push ke `main`, Vercel otomatis deploy ulang.
+Live di https://skill-shelf-mu.vercel.app. Project Vercel-nya belum tersambung ke repo ini, jadi push belum otomatis deploy. Sambungin di Vercel: Settings > Git > Connect Repository (Vercel GitHub app perlu akses ke repo `skill-shelf`). Setelah tersambung, tiap push ke `main` deploy ulang sendiri.
 
 ## Jalanin lokal
 
