@@ -121,6 +121,42 @@
     renderTabs();
   }
 
+  // Avatar pembuat skill diambil dari github.com/<user>.png, jadi cukup dari url di skills.json (tanpa API, tanpa rate limit).
+  function renderCrew() {
+    const owners = [];
+    for (const s of skills) {
+      const m = /^https:\/\/github\.com\/([^/]+)/.exec(s.url || '');
+      if (m && !owners.some((o) => o.toLowerCase() === m[1].toLowerCase())) owners.push(m[1]);
+    }
+    if (!owners.length) return;
+    const SHOW = 10;
+    const box = $('crew');
+    const faces = el('div', 'faces');
+    owners.forEach((o, i) => {
+      const a = el('a');
+      a.href = 'https://github.com/' + o; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      a.title = o; a.setAttribute('aria-label', o + ' di GitHub (tab baru)');
+      if (i >= SHOW) a.hidden = true;
+      const img = el('img');
+      img.src = 'https://github.com/' + o + '.png?size=72'; img.alt = ''; img.width = 36; img.height = 36; img.loading = 'lazy';
+      a.append(img);
+      faces.append(a);
+    });
+    if (owners.length > SHOW) {
+      const more = el('button', 'more', '+' + (owners.length - SHOW));
+      more.type = 'button';
+      more.setAttribute('aria-label', 'Tampilkan semua ' + owners.length + ' kreator');
+      more.addEventListener('click', () => {
+        faces.classList.add('open');
+        faces.querySelectorAll('a[hidden]').forEach((a) => { a.hidden = false; });
+        more.remove();
+      });
+      faces.append(more);
+    }
+    box.append(faces, el('span', 'crew-label', owners.length + ' kreator di balik skill di sini'));
+    box.hidden = false;
+  }
+
   function renderFooter() {
     const f = $('footer');
     const who = el('div', 'who');
@@ -137,5 +173,6 @@
   input.addEventListener('input', render);
   clear.addEventListener('click', () => { input.value = ''; render(); input.focus(); });
   render();
+  renderCrew();
   renderFooter();
 })();
